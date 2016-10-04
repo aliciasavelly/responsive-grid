@@ -9,10 +9,8 @@
  *   60px columns (12)
  *   20px gutters (two half-gutters + 11 full gutters, so 12 total)
  *
- *
  *   For smaller screens, we always want 20px of padding on either side,
  *   so 960 + 20 + 20 => 1000px
- *
  **/
 .row {
   max-width: 1000px;
@@ -39,7 +37,6 @@
    * Each column is padded by half-a-gutter on each side,
    *
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
-   *
    */
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
@@ -58,17 +55,14 @@
     width: 25%;
   }
 
-  /* 4 columns */
   .col-4 {
     width: 33.33%;
   }
 
-  /* 6 columns */
   .col-6 {
     width: 50%;
   }
 
-  /* 12 columns */
   .col-12 {
     width: 100%;
   }
